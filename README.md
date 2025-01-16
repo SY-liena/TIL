@@ -13,8 +13,9 @@
 - git status : staging area 작업 파일 확인
 - git commit -m "메시지명" : repository에 올리기
 - git log : repository 작업 파일 확인(커밋 되어 있는지 확인)
-- git remote add origin url : 로컬 저장소와 원격 저장소를 연결(origin은 별칭)
+- git remote add origin(별칭) url : 로컬 저장소와 원격 저장소를 연결
 - git remote -v : remote 목록 확인
+- git remote rm origin(별칭) : 연결된 원격 저장소가 삭제됨(별칭 지정된 연결 해제제)
 - git push origin +master : 최종적으로 commit 되어 있는것을 강제로 push(origin은 별칭, master는 브랜치명, +:강제로 진행)
 
 ## clone vs pull
